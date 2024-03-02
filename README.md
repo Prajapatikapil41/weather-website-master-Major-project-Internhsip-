@@ -1,6 +1,3 @@
-## project completion certificate
-![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/84859036-b84c-4333-b3bb-c6b027bb0819)
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
