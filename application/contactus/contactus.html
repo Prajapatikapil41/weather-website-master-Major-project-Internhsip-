@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="public\contactus\contactusstyle.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" /> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Recursive:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+  <link href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css" rel="stylesheet">
+<!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" /> -->
+  
+<title>Weather App</title>
+</head>
+
+<body>
+  <!-- ------------------------------------Header section------------------------------------- -->
+
+  <div class="header-div" id="topHeader">
+    <nav>
+        <div class="menu-icon">
+           <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+           Weather App
+        </div>
+        <div class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="public\aboutus\aboutus.html">About Us</a></li>
+            <li><a href="public\blogger\bloger.php">Blogs</a></li>
+            <li><a href="public\contactus\contactus.html">Contact Us</a></li>
+            <li><a href="public\feedback\feedback.html">Feedback</a></li>
+        </div>
+        <div class="search-icon">
+           <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+           <span class="fas fa-times"></span>
+        </div>
+        <form action="#">
+           <input type="search" class="search-data" placeholder="Search for another City" required>
+           <button type="submit" class="fas fa-search"></button>
+        </form>
+     </nav>
+    </div>
+    <script>
+       const menuBtn = document.querySelector(".menu-icon span");
+       const searchBtn = document.querySelector(".search-icon");
+       const cancelBtn = document.querySelector(".cancel-icon");
+       const items = document.querySelector(".nav-items");
+       const form = document.querySelector("form");
+       menuBtn.onclick = ()=>{
+         items.classList.add("active");
+         menuBtn.classList.add("hide");
+         searchBtn.classList.add("hide");
+         cancelBtn.classList.add("show");
+       }
+       cancelBtn.onclick = ()=>{
+         items.classList.remove("active");
+         menuBtn.classList.remove("hide");
+         searchBtn.classList.remove("hide");
+         cancelBtn.classList.remove("show");
+         form.classList.remove("active");
+         cancelBtn.style.color = "#ff3d00";
+       }
+       searchBtn.onclick = ()=>{
+         form.classList.add("active");
+         searchBtn.classList.add("hide");
+         cancelBtn.classList.add("show");
+       }
+    </script>
+  </div>
+<section class="contactUs-section-page">
+    <div class="">
+        <div class=""
+        style=" background-color: #FF8000; background-image: linear-gradient(to bottom right, #FF8000, yellow);">
+        <div class="container py-5">
+            <div class="contact-heading">
+                <div class="row h-100 align-items-center py-5">
+                    <div class="col-lg-6">
+                        <div class="service_contact_Heading" data-aos="zoom-in-right" data-aos-duration="2000">
+                            <h1 class="text-uppercase text-center contactUsHeading"><span
+                                    style="color:#191970;">Contact</span> Us</h1>
+                            <h6 class="text-uppercase text-center" style="font-weight: 800;font-size:30px">We'd <i
+                                    class="fas fa-heart" style="color:red"></i> to help</h6>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block" data-aos="zoom-in-left" data-aos-duration="2000"><img
+                            src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png" alt=""
+                            class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+   
+
+    <div class="contact-form-div py-5">
+        <div class="container py-4">
+
+            <div class="contactinfo">
+                <h5 text-capitalize><span class="contactText"></span></h5>
+            </div>
+
+            
+
+            <div class="row  align-items-center" data-aos="fade-up"
+     data-aos-duration="2000">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="contact-img text-center">
+                        <img src="contactus.gif">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="form-div">
+                        <form class="form" action="contactus" method="POST">
+                            <div class="form-group py-2">
+                                <label class="pb-1" for="name"><span><i style="color: red;" class="fas fa-user" aria-hidden="true"></i></span> Name</label>
+                                <input type="text" class="form-control  " name="name" id="name" aria-describedby="helpId"
+                                    value="" placeholder="ENTER YOUR NAME">
+                                    
+                            </div>
+
+                            <div class="form-group py-2">
+                                <label class="pb-1" for="email"><span><i style="color: red;" class="fas fa-envelope" aria-hidden="true"></i></span> Email</label>
+                                <input type="text" class="form-control " name="email" id="email"
+                                value=""  aria-describedby="helpId" placeholder="ENTER YOUR EMAIL">
+                                                                </div>
+
+                            <div class="form-group py-2">
+                                <label class="pb-1" for="message"><span><i style="color: red;" class="fas fa-comment-alt" aria-hidden="true"></i></span> Message</label>
+                                <textarea class="form-control " id="mssg" name="message" rows="4"
+                                 placeholder="ENTER YOUR MESSAGE"></textarea>
+                                                                </div>
+                            <center>
+                                <button type="submit" class="btn btn-warning my-3">Submit</button>
+                            </center>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<footer class="footers">
+    <div class="inner-footer">
+        <div class="social-links mb-5">
+            <ul>
+                <li class="social-items"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="social-items"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li class="social-items"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                <li class="social-items"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="quick-links">
+            <ul>
+                <li class="quick-item"><a href="#mainSec">Home</a></li>
+                <li class="quick-item"><a href="#">Blogs</a></li>
+                <li class="quick-item"><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="outer-footer">
+            <p>Copyright &copy; Weather App All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="bootstrap.bundle.min.js"></script>
+<script src="jquery.js"></script>
+<script src="javascript.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script> -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+    AOS.init();
+</script>
+
+<script>
+    var contactText = new Typed('.contactText', {
+        strings: ['Lorem ipsum dolor sit amet consectetur adipisicing elit. In at delectus doloribus facere minima sint aspernatur laborum dolorem, minus perspiciatis dignissimos? Facilis hic provident eaque iste excepturi porro aspernatur eveniet'],
+        smartBackspace: true,
+        typeSpeed: 20,
+        shuffle: false,
+    });
+</script>
+</body>
+
+</html>
