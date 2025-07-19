@@ -37,6 +37,15 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 (https://drive.google.com/drive/folders/1-8q9QDNS0UlIpm5IbAdQpkHid-kz6Dk-?usp=drive_link)
 
 
+## SHREENSHOTS - 
+
+![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/fdd45f05-c22d-4efd-88a3-5872963ef929)
+![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/d6372048-a89e-41e9-91ab-4ab5af533635)
+![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/e9d23ddb-e2cb-4e0f-bcef-c2831b86da0a)
+![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/3b264f0f-4acd-40dd-9b94-b20ccab8f94d)
+![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/458bd458-07be-451d-bcf2-a8434a14db1d)
+
+
 ---
 
 ## 👨‍💻 Author
@@ -46,12 +55,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 | [<img src="https://avatars.githubusercontent.com/u/81869156?s=400&u=ff6de7017b51e4d96dbfb1ae39c7a459d5e13ea8&v=4" width="120" height="120" style="border-radius:50%;">](https://github.com/Prajapatikapil41) | - 🧑‍💻 **GitHub:** [Prajapatikapil41](https://github.com/Prajapatikapil41)<br> - 💼 **LinkedIn:** [Kapil LinkedIn](https://www.linkedin.com/in/kapil-prajapati-7ba4b51b7/)<br> - 📧 **Email:** [kapilprajapati0403@gmail.com](mailto:kapilprajapati0403@gmail.com) |
 
 ---
-
-
-## SHREENSHOTS - 
-
-![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/fdd45f05-c22d-4efd-88a3-5872963ef929)
-![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/d6372048-a89e-41e9-91ab-4ab5af533635)
-![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/e9d23ddb-e2cb-4e0f-bcef-c2831b86da0a)
-![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/3b264f0f-4acd-40dd-9b94-b20ccab8f94d)
-![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/458bd458-07be-451d-bcf2-a8434a14db1d)
