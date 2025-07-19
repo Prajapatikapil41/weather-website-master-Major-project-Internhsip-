@@ -36,6 +36,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## CHECK OUT PROJECT DOCUMENTS ON - 
 (https://drive.google.com/drive/folders/1-8q9QDNS0UlIpm5IbAdQpkHid-kz6Dk-?usp=drive_link)
 
+
+---
+
+## 👨‍💻 Author
+
+|                                                                                                     Photo                                                                                                    | **Kapil Prajapati**                                                                                                                                                                                                                                                 |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [<img src="https://avatars.githubusercontent.com/u/81869156?s=400&u=ff6de7017b51e4d96dbfb1ae39c7a459d5e13ea8&v=4" width="120" height="120" style="border-radius:50%;">](https://github.com/Prajapatikapil41) | - 🧑‍💻 **GitHub:** [Prajapatikapil41](https://github.com/Prajapatikapil41)<br> - 💼 **LinkedIn:** [Kapil LinkedIn](https://www.linkedin.com/in/kapil-prajapati-7ba4b51b7/)<br> - 📧 **Email:** [kapilprajapati0403@gmail.com](mailto:kapilprajapati0403@gmail.com) |
+
+---
+
+
 ## SHREENSHOTS - 
 
 ![image](https://github.com/Prajapatikapil41/weather-website-master/assets/81869156/fdd45f05-c22d-4efd-88a3-5872963ef929)
